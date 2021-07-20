@@ -37,6 +37,22 @@
             a#contact:hover {
                 background: transparent;
                 transition: .5s;
+                color: #333;
+            }
+            
+            @media screen and (max-width: 991px) {
+                ul li a#contact {
+                    background: transparent;
+                    color: #333;
+                    transform: translate(0px, 3px);
+                }
+                ul li a#contact:hover {
+                    color: #fff;
+                }
+            }
+            
+            a#contact.nav-link:hover {
+                color: #fff;
             }
         </style>
         <header class="header header-transparent header-sticky">
