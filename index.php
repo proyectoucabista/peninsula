@@ -1,518 +1,515 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-  <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="author" content="Ayman Fikry"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-    <meta name="description" content="Multi-purpose Application landing page HTML5 template"/>
-    <title>Peninsula Corporation Associates</title>
-    <link href="assets/images/favicon/favicon.png" rel="icon"/> <!--favicon actializado-->
-    <!--  Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com"/>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap" rel="stylesheet"/>
-    <!--  Stylesheets-->
-    <link href="assets/css/vendor.min.css" rel="stylesheet"/>
-    <link href="assets/css/style.css?=v4" rel="stylesheet"/>
-  </head>
-  <body class="body-scroll">
-    <!-- Document Wrapper-->
-    <div class="wrapper clearfix" id="wrapperParallax">
-      <!--   
-      Header
-      =============================================  
-      -->
-      <style>
-        a#contact{
-          padding: 10px;
-          border-radius: 5px;
-          display: inline-block;
-          background: #ff4040;
-          transform: translate(0px,-10px);
-          color: #fff;
-        }
-        a#contact:hover{
-          background: transparent;
-          transition: .5s;
-          color: #333;
-        }
-        @media screen and (max-width: 991px) {
-          ul li a#contact
-          {
-            background: transparent;
-            color: #333;
-            transform: translate(0px,3px);
-          }
-          ul li a#contact:hover
-          {
-            color: #fff;
-          }
-          
-         }
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
 
-        
-              </style>
-      <header class="header header-transparent header-sticky">
-        <nav class="navbar navbar-sticky navbar-expand-lg" id="primary-menu"> 
-          <div class="container"> <a class="logo navbar-brand" href="index.html"><img class="logo logo-dark" src="assets/images/logo/logo1.jpg" alt="Magma Logo"/><img class="logo logo-light" src="assets/images/logo/logo-light.svg" alt="Magma Logo"/></a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a class="nav-link" data-scroll="scrollTo" href="#hero">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" data-scroll="scrollTo" href="#about">Servicios</a></li>
-                <li class="nav-item"><a class="nav-link" data-scroll="scrollTo" href="#facts">Nosotros</a></li>
-                <li class="nav-item"><a class="nav-link" data-scroll="scrollTo" href="#testimonials">Testimonios</a></li>
-                <li class="nav-item"><a class="nav-link" data-scroll="scrollTo" href="#action">Subscribete</a></li>
-                <li class="nav-item"><a class="nav-link" data-scroll="scrollTo" href="#footer" id="contact">CONTÁCTANOS</a></li>
-                </ul>
-              <!-- End Module Container  -->
-            </div>
-            <!-- End .nav-collapse-->
-          </div>
-          <!-- End .container-->
-        </nav>
-        <!-- End .navbar-->
-      </header>
-      <!--
-      Hero Section
-      ============================================= 
-      -->
-      <section class="hero hero-lead" id="hero">
-        <div class="hero-cotainer bg-overlay bg-overlay-dark">
-          <div class="bg-section"> <img src="" alt="Background Image"/></div>
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3"> 
-                <div class="hero-content">
-                  <p class="hero-subtitle">Peninsula Associates corporation</p>
-                  <h1 class="hero-title">Online services from leading experts in market</h1>
-                  <div class="hero-action"><a class="btn btn--primary" href="javascript:void(0)">Start your services</a></div>
-                </div>
-              </div>
-            </div>
-            <!-- End .row-->
-           
-                  <!-- End .feature-panel -->
-                </div>
-              </div>
-              <!-- End .row-->
-            </div>
-            <!-- End .hero-features-->
-          </div>
-          <!-- End .hero-cotainer-->
-        </div>
-        <!-- End .container-->
-      </section>
-      <!--   
-      About Section
-      ============================================= 
-      -->
-      <section class="services text-center bg-parallax" id="about">
-        <div class="bg-section"> <img src="" alt="Background Image"/></div>
-        <div class="container">
-          <div class="row clearfix">
-            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-              <div class="heading text-center">
-                <p class="heading-subtitle">QUÉ HACEMOS</p>
-                <h3 class="heading-title">¿Cómo podemos ayudarte?</h3>
-                <div class="divider">
-                  <div class="line"></div>
-                </div>
-              </div>
-            </div>
-            <!-- End .col-lg-6 -->
-          </div>
-          <!-- End .row  -->
-          <style>
-            .service-panel .service-img:hover{
-              
-              transition: .5s;
-              cursor: pointer;
-            }
-          </style>
-          <div class="row">
-            <!-- Panel #1  -->
-            <div class="col-12 col-lg-4">
-              <div class="service-panel">
-                <div class="service-img">
-                  <div class="bg-section"><img src="assets/images/services/1.jpg" alt="service image"/></div>
-                </div>
-                <div class="service-body">
-                  <div class="service-content">
-                    <h3>Servicio de transporte Maritimo</h3>
-                    <p>Somos especialistas en el fletamiento Maritimo.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End .service-panel -->
-            </div>
-            <!-- End .col-12-->
-            <!-- Panel #2  -->
-            <div class="col-12 col-lg-4">
-              <div class="service-panel">
-                <div class="service-img"> 
-                  <div class="bg-section"><img src="assets/images/services/2.png" alt="service image"/></div>
-                </div>
-                <div class="service-body">
-                  <div class="service-content">
-                    <h3>Servicio de Gestión de compra</h3>
-                    <p>Generamos valor a su empresa.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End .service-panel -->
-            </div>
-            <!-- End .col-12
-            
-            assets/images/services/3.png -->
-            <style type="text/css">
-            	.service-img .service-img img{
-            		background-attachment: cover;
-            		display: none;
-            	}
-            </style>
-            <!-- Panel #3  -->
-            </style>
-            <div class="col-12 col-lg-4">
-              <div class="service-panel">
-                <div class="service-img"> 
-                  <div class="bg-section completa"><img src="assets/images/services/3.png" style="display: none;" alt="service image"/></div>
-                </div>
-                <div class="service-body">
-                  <div class="service-content">
-                    <h3>Servicio de Gestión de compra</h3>
-                    <p>Generamos valor a su empresa.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End .service-panel -->
-            </div>
-            <!-- End .col-12-->
-          </div>
-          <!-- End .row  -->
-          <div class="row"> 
-            <div class="col-12"> 
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End .container-->
-      </section>
-      <!-- 
-      Counter	Section
-      =============================================  
-      -->
-      
-      <!-- 
-      Pricing Table Section
-      =============================================  
-      -->
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>Peninsula Associates Corporation</title>
 
-      <style>
-        p.heading-text1 {
-          text-align: start;
-          color: #333;
-          font-size: 15px;
-          margin-left: 15px;
+    <meta name="author" content="themesflat.com">
 
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        }
-      </style>
-      <section class="pricing bg-clouds-red" id="pricing">
-        <div class="container">
-          <div class="row clearfix">
-            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-              <div class="heading heading-3 text-center">
-                <p class="heading-subtitle">CONOCE MÁS</p>
-                <h2 class="heading-title">Acerca de nosotros</h2>
-                <div class="divider"></div>
-                <div class="line"></div>
-                <p class="heading-text1">PENINSULA es una empresa de capital privado fundada en el 2008, que nace de la fusión de dos
-                  empresas con de reconocida experiencia en el sector naviero y con sede en los Estados Unidos de
-                  Norteamérica. Cuenta con un equipo de profesionales con amplia experiencia, más de 30 años en
-                  el transporte marítimo, manejando rutas, modalidades y trámites del circuito import – export, y pone
-                  sus buenas prácticas a su servicio. 
-                  </p>
-                <div class="divider"> 
-                  <div class="line"></div>
-                </div>
-              </div>
-            </div>
-            <!-- End .col-lg-6 -->
-          </div>
-          
-          <!-- End .pricing-container-->
-        </div>
-        <!-- End .container-->
-      </section>
-      <section class="counters bg-overlay bg-overlay-dark-2 bg-parallax" id="facts">
-        <div class="bg-section"> <img src="" alt="background"/></div>
-        <div class="container"> 
-          <div class="row"> 
-            <div class="col-12 col-lg-6 offset-lg-3">
-              <div class="heading heading-light heading-2 text-center">
-                <h2 class="heading-title" style="text-transform: capitalize;">cumpliendo metas</h2>
-                <div class="divider">
-                  <div class="line"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End .row-->
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-3"> 
-              <div class="counter"> 
-                <div class="counter-content"> 
-                  <div class="counter-icon"><i class="flaticon-users-1"></i></div>
-                  <div class="counter-num"> <span class="counting" data-counterup-nums="2008">2008</span></div>
-                </div>
-                <div class="counter-name">
-                  <h6>FUNDACIÓN</h6>
-                </div>
-              </div>
-              <!-- End .counter-->
-            </div>
-            <div class="col-12 col-md-6 col-lg-3"> 
-              <div class="counter"> 
-                <div class="counter-content"> 
-                  <div class="counter-icon"><i class="flaticon-users-1"></i></div>
-                  <div class="counter-num"> <span class="counting" data-counterup-nums="958">958</span></div>
-                </div>
-                <div class="counter-name">
-                  <h6>EMPLEADOS</h6>
-                </div>
-              </div>
-              <!-- End .counter-->
-            </div>
-            <div class="col-12 col-md-6 col-lg-3"> 
-              <div class="counter"> 
-                <div class="counter-content"> 
-                  <div class="counter-icon"><i class="flaticon-photos"></i></div>
-                  <div class="counter-num"> <span class="counting" data-counterup-nums="435">435</span></div>
-                </div>
-                <div class="counter-name">
-                  <h6>PROYECTOS</h6>
-                </div>
-              </div>
-              <!-- End .counter-->
-            </div>
-            <div class="col-12 col-md-6 col-lg-3"> 
-              <div class="counter"> 
-                <div class="counter-content"> 
-                  <div class="counter-icon"><i class="flaticon-settings-8"></i></div>
-                  <div class="counter-num"> <span class="counting" data-counterup-nums="1236">1236</span></div>
-                </div>
-                <div class="counter-name">
-                  <h6>spend time</h6>
-                </div>
-              </div>
-              <!-- End .counter-->
-            </div>
-          </div>
-          <!-- End .row-->
-        </div>
-        <!-- End .container-->
-      </section>
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
 
-      <style>
-        section#testimonials::before{
-          background-color: #f6f6f6;
-        }
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 
-      </style>
+    <!-- Responsive -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+
+    <!-- Colors -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/colors/color1.css" id="colors">
+
+    <!-- Animation Style -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+    <link rel="stylesheet" href="stylesheets/estilos.css?=v1">
+
+    <!-- Favicon and touch icons  -->
+
+    <link href="icon/favicon.webp" rel="shortcut icon">
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!-- <body class="header-sticky page-loading">
+    <div class="loading-overlay">
+    </div> -->
+
+    <body class="header-sticky">
     
-      <section style="background: #f6f6f6;" class="testimonials bg-overlay bg-overlay-dark bg-parallax miseccion" id="testimonials">
-        <div class="bg-section"><img src="assets/images/testimonials/Testimonial.jpg" alt="background"/></div>
-        <div class="container">
-          <div class="row"> 
-            <div class="col-12 col-lg-6 offset-lg-3"> 
-              <div class="heading heading-4 heading-light text-center">
-                <h2 style="color: #333; font-weight: 600;               " class="heading-title">Testimonios</h2>
-                <div class="divider"> 
-                  <div class="line"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End .row-->
-          <div class="testimonials-holder">
-            <div class="row no-gutters"> 
-              <div class="col-12 col-lg-6 d-flex"> 
-                <div class="img-holder"> 
-                  <div class="bg-section"> <img src="assets/images/testimonials/Testimonial.jpg" alt="background"/></div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-6"> 
-                <div class="testimonial-holder bg-overlay bg-overlay-grey">
-                  <div class="bg-section"> <img src="assets/images/testimonials/right-bg.svg" alt="background"/></div>
-                  <div class="owl-carousel" data-slider-id="1" data-slide="1" data-slide-res="1" data-autoplay="true" data-nav="false" data-dots="false" data-space="0" data-loop="true" data-speed="800">
-                    <div class="testimonial-panel">
-                      <div class="testimonial-img"><img class="author" src="assets/images/testimonials/model-min.png" alt="author image"/>
-                        <div class="testimonial-quote"> <img class="quote" src="assets/images/testimonials/quote-left.png" alt="quote image"/><img class="quote" src="assets/images/testimonials/quote-right.png" alt="quote image"/></div>
-                      </div>
-                      <div class="testimonial-body">
-                        <h4 class="testimonial-name">mark smith</h4>
-                        <p class="testimonial-title">envato Inc</p>
-                        <p class="testimonial-desc">&quot;This should be used to tell a story and include any testimonials you might have about your product or service for your clients&quot;</p>
-                        <div class="rating"> <i class="fas fa-star active"></i><i class="fas fa-star active"></i><i class="fas fa-star active"></i><i class="fas fa-star active"></i><i class="fas fa-star active"></i></div>
-                      </div>
-                    </div>
-                    <div class="testimonial-panel">
-                      <div class="testimonial-img"><img class="author" src="assets/images/testimonials/model-min.png" alt="author image"/>
-                        <div class="testimonial-quote"> <img class="quote" src="assets/images/testimonials/quote-left.png" alt="quote image"/><img class="quote" src="assets/images/testimonials/quote-right.png" alt="quote image"/></div>
-                      </div>
-                      <div class="testimonial-body">
-                        <h4 class="testimonial-name">joe sallan</h4>
-                        <p class="testimonial-title">google Inc</p>
-                        <p class="testimonial-desc">&quot;This should be used to tell a story and include any testimonials you might have about your product or service for your clients&quot;</p>
-                        <div class="rating"> <i class="fas fa-star active"></i><i class="fas fa-star active"></i><i class="fas fa-star active"></i><i class="fas fa-star active"></i><i class="fas fa-star active"></i></div>
-                      </div>
-                    </div>
-                    <div class="testimonial-panel">
-                      <div class="testimonial-img"><img class="author" src="assets/images/testimonials/model-min.png" alt="author image"/>
-                        <div class="testimonial-quote"> <img class="quote" src="assets/images/testimonials/quote-left.png
-                          " alt="quote image"/><img class="quote" src="assets/images/testimonials/quote-left.png" alt="quote image"/></div>
-                      </div>
-                      <div class="testimonial-body">
-                        <h4 class="testimonial-name">marko jack</h4>
-                        <p class="testimonial-title">facebook Inc</p>
-                        <p class="testimonial-desc">&quot;This should be used to tell a story and include any testimonials you might have about your product or service for your clients&quot;</p>
-                        <div class="rating"> <i class="fas fa-star active"></i><i class="fas fa-star active"></i><i class="fas fa-star active"></i><i class="fas fa-star active"></i><i class="fas fa-star active"></i></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End .row-->
-          </div>
-          <!-- End .testimonials-holder-->
+
+    <!-- Boxed -->
+    <div class="boxed">
+        <div class="site-header">
+
+            <!-- /.flat-top -->
+
+           <?php include("menu.php"); ?>
+            <!-- /.header -->
         </div>
-        <!-- End .container-->
-      </section>
-      <!--
-      ============================
-      Clients #1 Section
-      ============================
-      -->
-      <section class="clients clients-carousel clients-1 bg-grey" id="clients-1">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="carousel owl-carousel" data-slide="6" data-slide-rs="2" data-autoplay="false" data-nav="false" data-dots="false" data-space="0" data-loop="true" data-speed="3000">
-                <div class="client"><a href="javascript:void(0)"> </a><img src="assets/images/clients/1.png" alt="client"/></div>
-                <div class="client"><a href="javascript:void(0)"> </a><img src="assets/images/clients/2.png" alt="client"/></div>
-                <div class="client"><a href="javascript:void(0)"> </a><img src="assets/images/clients/3.png" alt="client"/></div>
-                <div class="client"><a href="javascript:void(0)"> </a><img src="assets/images/clients/4.png" alt="client"/></div>
-                <div class="client"><a href="javascript:void(0)"> </a><img src="assets/images/clients/5.png" alt="client"/></div>
-                <div class="client"><a href="javascript:void(0)"> </a><img src="assets/images/clients/6.png" alt="client"/></div>
-              </div>
-            </div>
-          </div>
-          <!-- End .row-->
-        </div>
-        <!-- End .container-->
-      </section>
-      <!-- 
-      CTA Section
-      =============================================  
-      -->
+        <!-- /.site-header -->
+
+        <!-- Slider -->
 
 
-      <section class="cta" id="action">
-        <div class="container">
-          <div class="bg-section"><img src="" alt="map"/></div>
-          <div class="row">
-            <div class="col-12 col-lg-6 offset-lg-3"> 
-              <div class="heading heading-5 text-center">
-                <h2 class="heading-title">Contáctenos</h2>
-                <div class="divider"> 
-                  <div class="line"></div>
-                </div>
-              </div>
+
+        <div class="tp-banner-container">
+            <div class="slider">
+                <ul>
+                    <li>
+                        <span>
+                            <p>
+                                <b>Somos Referencia En El <br>
+                                Mercado Laboral</b><br>  
+                                Más de 30 años de experiencia en el<br>
+                                fletamento marítimo.
+
+                                <a href="" class="vermas">Ver Más</a>
+                                <a href="" class="conta">Contacto</a>
+
+                            </p>
+
+                             
+                        </span>
+                   
+                        <img src="images/slides/1.webp" draggable="false">
+                        
+
+                    </li>
+                    <li>
+                        <span>
+                            <p>
+                                <b>Somos referencia en el <br>
+                                mercado laboral</b><br>  
+                                Más de 30 años de experiencia en el<br>
+                                fletamento marítimo.
+
+                                <a href="" class="vermas">Ver Más</a>
+                                <a href="" class="conta">Contacto</a>
+                            </p>
+
+                             
+                        </span>
+                    
+                        <img src="images/slides/2.webp" draggable="false">
+                    </li>
+                    <li>
+                        <span>
+                            <p>
+                                <b>Somos referencia en el <br>
+                                mercado laboral</b><br>  
+                                Más de 30 años de experiencia en el<br>
+                                fletamento marítimo.
+
+                                <a href="" class="vermas">Ver Más</a>
+                                <a href="" class="conta">Contacto</a>
+                            </p>
+
+                             
+                        </span>
+                        
+                       
+                        <img src="images/slides/1.webp" draggable="false">
+                    </li>
+                    <li>
+                        <span>
+                            <p>
+                                <b>Somos referencia en el <br>
+                                mercado laboral</b><br>  
+                                Más de 30 años de experiencia en el<br>
+                                fletamento marítimo.
+
+                                <a href="" class="vermas">Ver Más</a>
+                                <a href="" class="conta">Contacto</a>
+                            </p>
+
+                             
+                        </span>
+                        
+                        
+                        <img src="images/slides/2.webp" draggable="false">
+                    </li>
+                </ul>
             </div>
-          </div>
-          <!-- End .row-->
-          <div class="row">
-            <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3"> 
-              <div class="form-mailchimp">
-                <form class="mb-0 form-action mailchimp">
-                  <div class="input-group">
-                    <div class="input-icon"> 
-                      <input class="form-control" type="email" placeholder="Ingrese su Gmail" required="required"/>
+        </div>
+
+        <!-- Promobox -->
+        <style>
+           
+            
+            a.button.black.sm {
+                background: black;
+            }
+        </style>
+        <div class="flat-row bg-scheme pad-top0px pad-bottom0px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="promobox style1 style2 clearfix">
+                            <h5 class="promobox-title" id="servicios">Te acompañamos en el Camino para que el Proceso de Trabajo sea a la Medida.</h5>
+                            <a class="button black sm" href="#contacto">Contactanos<i class="fa fa-chevron-right"></i></a>
+                        </div>
                     </div>
-                    <button class="btn btn--primary">ENVIAR</button>
-                  </div>
-                  <!--  End .input-group-->
-                </form>
-                <div class="subscribe-alert"></div>
-              </div>
-            </div>
-            <!-- End .col-12-->
-          </div>
-          <!-- End .row-->
-        </div>
-        <!-- End .container-->
-      </section>
-      <!-- 
-      Footer
-      ============================================= 
-      -->
-      <footer class="footer bg-overlay bg-overlay-dark bg-parallax" id="footer">
-        <div class="bg-section"> <img src="" alt="background"/></div>
-        <div class="footer-top">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <div class="footer-logo"><a class="logo" href="index.html"><img class="logo logo-light" src="assets/images/logo/logo-footer.svg" alt="Magma Logo"/></a></div>
-              </div>
-            </div>
-            <div class="footer-links">
-              <div class="row">
-                <div class="col-12 col-md-6 col-lg-4"></div>
-                <p class="sedes">SEDE PRINCIPAL</p>
-                <p><i class="fas fa-map"></i> 795 south park, wonderlan, australia</p>
-                <div class="col-12 col-md-6 col-lg-4"><a href="mailto:Magmasite@Envato.com"><i class="far fa-comment-dots"></i> Magmasite@Envato.com</a></div>
-                <div class="col-12 col-md-6 col-lg-4">
-                  <p><i class="far fa-clock"></i> Mon. -Fri. 8am to 5pm</p>
+                    <!-- /.col-md-12 -->
                 </div>
-              
-                <div class="col-12 col-md-6 col-lg-4"><a href="tel:0106485655"><i class="fas fa-phone-alt"></i> +(123)456-789-102</a></div>
-                <div class="col-12 col-md-6 col-lg-4"><a href="www.Envato.com"><i class="fas fa-link"></i> www.Envato.com</a></div>
-                <div class="col-12 col-md-6 col-lg-4">
-                  <p><i class="far fa-clock"></i> sat. 8am to 11pm</p>
-                  <div class="map"><img src="assets/images/footer/world-map.png" ></div>
-                  
-                </div>
-              </div>
+                <!-- /.row -->
             </div>
-          </div>
+            <!-- /.container -->
         </div>
-        <div class="container">
-          <hr/>
-        </div>
-        <div class="footer-bottom">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-12 col-lg-6">
-                <div class="footer-copyright"><span>2021 &copy; <a href="http://themeforest.net/user/zytheme/portfolio?ref=zytheme">Peninsula Associates Corporation</a>. All rights reserved.</span></div>
-              </div>
-              <div class="col-12 col-12 col-lg-6">
-                <div class="footer-social">
-                  </ul>
+        <!-- /.flat-row -->
+
+        <!-- Flat imagebox -->
+        <div class="flat-row parallax-style parallax1">
+            <div class="overlay bg-scheme1"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="flat-wrapper">
+                        <div class="flat-imagebox clearfix">
+                            <div class="flat-item item-three-column">
+                                <div class="imagebox">
+                                    <div class="box-wrapper">
+                                        <div class="box-image">
+                                            <img src="images/imagebox/1.webp" alt="images">
+                                        </div>
+                                        <div class="box-header">
+                                            <h5 class="box-title">
+                                                <a href="Tranport">Transporte Maritimo</a>
+                                            </h5>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="box-desc">Somos especialistas en el fletamento Marítimo.</div>
+                                            <div class="box-button">
+                                                <a class="button bg-scheme3" href="Tranport">Ver Mas... <i class="fa fa-chevron-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.imagebox -->
+                            </div>
+                            <!-- /.item-three-column -->
+
+                            <div class="flat-item item-three-column">
+                                <div class="imagebox">
+                                    <div class="box-wrapper">
+                                        <div class="box-image">
+                                            <img src="images/imagebox/2.webp" alt="images">
+                                        </div>
+                                        <div class="box-header">
+                                            <h5 class="box-title">
+                                                <a href="Trading">Gestión de Compra</a>
+                                            </h5>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="box-desc">Nuestro propósito es generar valor a su empresa a través de la gestión de compras y contrataciones, basados en esquema de trabajo colaborativo.</div>
+                                            <div class="box-button">
+                                                <a class="button bg-scheme3" href="Trading">Ver Mas... <i class="fa fa-chevron-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.imagebox -->
+                            </div>
+                            <!-- /.item-three-column -->
+
+                            <div class="flat-item item-three-column">
+                                <div class="imagebox">
+                                    <div class="box-wrapper">
+                                        <div class="box-image">
+                                            <img src="images/imagebox/3.webp" alt="images">
+                                        </div>
+                                        <div class="box-header">
+                                            <h5 class="box-title">
+                                                <a href="comercializacion">Comercialización de Productos y Materias.</a>
+                                            </h5>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="box-desc"> Investigamos, examinamos, analizamos, realizamos la gestión de riesgos adaptados a cada situación en particular; y luego entregamos al mercado los productos.</div>
+                                            <div class="box-button">
+                                                <a class="button bg-scheme3" href="comercializacion">Ver Más... <i class="fa fa-chevron-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.imagebox -->
+                            </div>
+                            <!-- /.item-three-column -->
+                        </div>
+                        <!-- /.flat-imagebox -->
+                    </div>
+                    <!-- /.flat-wrapper -->
                 </div>
-              </div>
+                <!-- /.row -->
             </div>
-          </div>
+            <!-- /.container -->
         </div>
-        <!-- End .container  -->
-      </footer>
+        <!-- /.flat-row -->
+
+        <!-- Flat iconbox style -->
+        <div class="flat-row pad-top60px pad-bottom10px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="flat-title-section style" id="nosotros">Los mejores en el <span class="scheme">Mercado Global</span></h2>
+                    </div>
+                    <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+                <div class="flat-divider d40px"></div>
+                <div class="row">
+                    <div class="flat-wrapper">
+                        <div class="flat-iconbox-style clearfix">
+                            <div class="flat-item item-three-column">
+                                <div class="iconbox style1">
+                                    <div class="box-header">
+                                        <div class="box-icon"><i class="fa fa-ship"></i></div>
+                                        <h5 class="box-title">Transporte Maritimo</h5>
+                                    </div>
+                                    <div class="box-content">
+                                        Somos especialistas en el fletamento Marítimo.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.item-three-column -->
+
+                            <div class="flat-item item-three-column">
+                                <div class="iconbox style1">
+                                    <div class="box-header">
+                                        <div class="box-icon"><i class="fa fa-globe"></i></div>
+                                        <h5 class="box-title">Gestión de Compra</h5>
+                                    </div>
+                                    <div class="box-content">
+                                        Somos especialistas en generar valor a su empresa.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.item-three-column -->
+
+                            <div class="flat-item item-three-column">
+                                <div class="iconbox style1">
+                                    <div class="box-header">
+                                        <div class="box-icon"><i class="fa fa-truck"></i></div>
+                                        <h5 class="box-title">Comercialización de Productos y Materias</h5>
+                                    </div>
+                                    <div class="box-content">
+                                        Soluciones únicas para satisfacer sus necesidades.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.item-three-column -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.flat-row -->
+        <style>
+            div.flat-row.parallax.parallax4.pad-top120px.pad-bottom120px {
+                background: transparent;
+            }
+            
+            h5.desc {
+                font-size: 22px;
+            }
+        </style>
+
+        <div class="flat-row parallax parallax4 pad-top120px pad-bottom120px">
+            <div class="overlay bg-scheme1"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="make-quote">
+                            <h1 class="title">Acerca de Nosotros<br></h1>
+                            <h5 class="desc">PENINSULA ASSOCIATES CORP conformada por un equipo de profesionales con amplia experiencia en el negocio naviero (mas de 30 años), ofrece sus buenas practicas que van desde el manejo de rutas y modalidades , hasta el diseño
+                                de logisticas y todo tipo de tramite del circuito import-export.
+                            </h5>
+                            <div class="group-btn">
+                                <a class="button lg outline style1" style="background-color:#1b729e;" href="Nosotros.html" id="Testimonios">Más información <i class="fa fa-chevron-right"></i></a>
+                                <a class="button lg outline style1" href="#contacto">Contactanos <i class="fa fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- /.make-quote -->
+                    </div>
+                    <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.flat-row -->
+
+        <!-- Promobox -->
+        <div class="flat-row bg-scheme1 pad-top0px pad-bottom0px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="promobox style1 style2 clearfix">
+                            <h5 class="promobox-title">Contactanos ahora para obtener un presupuesto del servicio que necesitas.</h5>
+                            <a class="button black sm" href="#contacto">Contactanos<i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.flat-row -->
+
+
+
+        <div class="flat-row pad-bottom70px bg-f2f4f8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="flat-title-section style w90 mag-bottom0px">Testimonios de nuestros <span class="scheme">Clientes.</span></h2>
+                    </div>
+                    <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+
+                <div class="flat-divider d48px"></div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="flat-testimonial-owl">
+                            <div class="flat-testimonial">
+                                <div class="testimonial-meta">
+                                    <div class="testimonial-image">
+                                        <img src="images/testimonials/star.png" alt="images">
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <strong class="author-name">Cerveceria Regional</strong>
+                                        <div class="author-info"></div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <blockquote>
+                                        "Nuestra experiencia con Peninsula fue totalmente satisfactoria. En todo momento se preocuparon por identificar nuestras necesidades, adaptarse a ellas y a nuestros plazos lo máximo posible."
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <!-- /.testimonial -->
+
+                            <div class="flat-testimonial">
+                                <div class="testimonial-meta">
+                                    <div class="testimonial-image">
+                                        <img src="images/testimonials/star.png" alt="images">
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <strong class="author-name">Aquariu Shipping inc Canada</strong>
+                                        <div class="author-info"></div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <blockquote>
+                                        Peninsula dedica todo su tiempo en satisfacer al cliente. Trabajan meticulosamente para cubrir tus expectativas y te acompañan durante todo el proceso de trabajo.
+
+
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <!-- /.testimonial -->
+
+                            <div class="flat-testimonial">
+                                <div class="testimonial-meta">
+                                    <div class="testimonial-image">
+                                        <img src="images/testimonials/star.png" alt="images">
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <strong class="author-name">Mundinaves LTDA Colombia.</strong>
+                                        <div class="author-info"></div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <blockquote>
+                                        "Excelentes profesionales que cuidan al detalle sus tareas, en quien confiamos para llevar a buen puerto cualquier proyecto."
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <!-- /.testimonial -->
+
+                            <div class="flat-testimonial">
+                                <div class="testimonial-meta">
+                                    <div class="testimonial-image">
+                                        <img src="images/testimonials/star.png" alt="images">
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <strong class="author-name">Coutinho Caro</strong>
+                                        <div class="author-info"></div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <blockquote>
+                                        "Estamos muy satisfechos con el trabajo realizado, por el apoyo y asesoramiento profesional ofrecido. Su labor ha sido de gran ayuda tanto en aspectos técnicos como generales."
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <!-- /.testimonial -->
+                            <!-- /.testimonial -->
+                        </div>
+                        <!-- /.flat-testimonial -->
+                    </div>
+                    <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.flat-row -->
+
+        <!-- Promobox -->
+
+        <!-- /.flat-row -->
+
+        <!-- Map -->
     </div>
-    <!--  Footer Scripts==
-    -->
-    <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/vendor.min.js"></script>
-    <script src="assets/js/functions.js"></script>
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-  </body>
+    <!-- /.flat-row -->
+
+    <!-- /.flat-row -->
+
+    <!-- Footer -->
+    <?php include("footer.php"); ?>
+
+    <!-- Go Top -->
+    <a class="go-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+
+    </div>
+    <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+    <!-- Javascript -->
+    <script type="text/javascript" src="javascript/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.easing.js"></script>
+    <script type="text/javascript" src="javascript/owl.carousel.js"></script>
+    <script type="text/javascript" src="javascript/jquery-waypoints.js"></script>
+    <script type="text/javascript" src="javascript/jquery-countTo.js"></script>
+    <script type="text/javascript" src="javascript/jquery.cookie.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="javascript/gmap3.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery-validate.js"></script>
+    <script type="text/javascript" src="javascript/parallax.js"></script>
+    <script type="text/javascript" src="javascript/main.js"></script>
+
+    <!-- Revolution Slider -->
+    <script type="text/javascript" src="javascript/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="javascript/slider.js"></script>
+
+</body>
+
 </html>
