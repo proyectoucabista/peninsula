@@ -29,7 +29,7 @@
 
     <!-- Animation Style -->
     <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
-    <link rel="stylesheet" href="stylesheets/estilos.css?=v1">
+    <link rel="stylesheet" href="stylesheets/estilos.css?=v2">
 
     <!-- Favicon and touch icons  -->
 
@@ -68,31 +68,30 @@
                 <ul>
                     <li>
                         <span>
-                            <p>
-                                <b>Somos Referencia En El <br>
-                                Mercado Laboral</b><br>  
-                                Más de 30 años de experiencia en el<br>
-                                fletamento marítimo.
+                        <p>
+                                <b>Somos Referencia en el <br>
+                                Mercado Global</b><br><br>  
+                                Más de 30 años de Experiencia en el<br>
+                                Fletamento Marítimo.
 
-                                <a href="" class="vermas">Ver Más</a>
-                                <a href="" class="conta">Contacto</a>
-
+                                <a href="#servicios" class="vermas">Ver Más</a>
+                                <a href="#contacto" class="conta">Contacto</a>
                             </p>
 
                              
                         </span>
-                   
+
                         <img src="images/slides/1.webp" draggable="false">
-                        
+
 
                     </li>
                     <li>
                         <span>
-                            <p>
-                                <b>Somos referencia en el <br>
-                                mercado laboral</b><br>  
-                                Más de 30 años de experiencia en el<br>
-                                fletamento marítimo.
+                        <p>
+                                <b>Somos Referencia en el <br>
+                                Mercado Global</b><br><br>  
+                                Más de 30 años de Experiencia en el<br>
+                                Fletamento Marítimo.
 
                                 <a href="" class="vermas">Ver Más</a>
                                 <a href="" class="conta">Contacto</a>
@@ -100,16 +99,16 @@
 
                              
                         </span>
-                    
+
                         <img src="images/slides/2.webp" draggable="false">
                     </li>
                     <li>
                         <span>
-                            <p>
-                                <b>Somos referencia en el <br>
-                                mercado laboral</b><br>  
-                                Más de 30 años de experiencia en el<br>
-                                fletamento marítimo.
+                        <p>
+                                <b>Somos Referencia en el <br>
+                                Mercado Global</b><br><br>  
+                                Más de 30 años de Experiencia en el<br>
+                                Fletamento Marítimo.
 
                                 <a href="" class="vermas">Ver Más</a>
                                 <a href="" class="conta">Contacto</a>
@@ -117,17 +116,17 @@
 
                              
                         </span>
-                        
-                       
+
+
                         <img src="images/slides/1.webp" draggable="false">
                     </li>
                     <li>
                         <span>
                             <p>
-                                <b>Somos referencia en el <br>
-                                mercado laboral</b><br>  
-                                Más de 30 años de experiencia en el<br>
-                                fletamento marítimo.
+                                <b>Somos Referencia en el <br>
+                                Mercado Global</b><br><br>  
+                                Más de 30 años de Experiencia en el<br>
+                                Fletamento Marítimo.
 
                                 <a href="" class="vermas">Ver Más</a>
                                 <a href="" class="conta">Contacto</a>
@@ -135,8 +134,8 @@
 
                              
                         </span>
-                        
-                        
+
+
                         <img src="images/slides/2.webp" draggable="false">
                     </li>
                 </ul>
@@ -157,7 +156,7 @@
                     <div class="col-md-12">
                         <div class="promobox style1 style2 clearfix">
                             <h5 class="promobox-title" id="servicios">Te acompañamos en el Camino para que el Proceso de Trabajo sea a la Medida.</h5>
-                            <a class="button black sm" href="#contacto">Contactanos<i class="fa fa-chevron-right"></i></a>
+                            <a class="button black sm" href="#contacto">Contáctanos<i class="fa fa-chevron-right"></i></a>
                         </div>
                     </div>
                     <!-- /.col-md-12 -->
@@ -189,7 +188,7 @@
                                         <div class="box-content">
                                             <div class="box-desc">Somos especialistas en el fletamento Marítimo.</div>
                                             <div class="box-button">
-                                                <a class="button bg-scheme3" href="Tranport">Ver Mas... <i class="fa fa-chevron-right"></i></a>
+                                                <a class="button bg-scheme3" href="Transport.php">Ver Mas... <i class="fa fa-chevron-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -212,7 +211,7 @@
                                         <div class="box-content">
                                             <div class="box-desc">Nuestro propósito es generar valor a su empresa a través de la gestión de compras y contrataciones, basados en esquema de trabajo colaborativo.</div>
                                             <div class="box-button">
-                                                <a class="button bg-scheme3" href="Trading">Ver Mas... <i class="fa fa-chevron-right"></i></a>
+                                                <a class="button bg-scheme3" href="Gestion.php">Ver Mas... <i class="fa fa-chevron-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -229,7 +228,7 @@
                                         </div>
                                         <div class="box-header">
                                             <h5 class="box-title">
-                                                <a href="comercializacion">Comercialización de Productos y Materias.</a>
+                                                <a href="Comercializacion.php">Comercialización de Productos y Materias.</a>
                                             </h5>
                                         </div>
                                         <div class="box-content">
@@ -331,12 +330,12 @@
                     <div class="col-md-12">
                         <div class="make-quote">
                             <h1 class="title">Acerca de Nosotros<br></h1>
-                            <h5 class="desc">PENINSULA ASSOCIATES CORP conformada por un equipo de profesionales con amplia experiencia en el negocio naviero (mas de 30 años), ofrece sus buenas practicas que van desde el manejo de rutas y modalidades , hasta el diseño
+                            <h5 class="desc">PENINSULA ASSOCIATES CORP conformada por un equipo de profesionales con amplia experiencia en el negocio naviero (mas de 30 años), ofrece sus buenas practicas que van desde el manejo de rutas y modalidades, hasta el diseño
                                 de logisticas y todo tipo de tramite del circuito import-export.
                             </h5>
                             <div class="group-btn">
-                                <a class="button lg outline style1" style="background-color:#1b729e;" href="Nosotros.html" id="Testimonios">Más información <i class="fa fa-chevron-right"></i></a>
-                                <a class="button lg outline style1" href="#contacto">Contactanos <i class="fa fa-chevron-right"></i></a>
+                                <a class="button lg outline style1" style="background-color:#1b729e;" href="Nosotros.php" id="Testimonios">Más información <i class="fa fa-chevron-right"></i></a>
+                                <a class="button lg outline style1" href="#contacto">Contáctanos <i class="fa fa-chevron-right"></i></a>
                             </div>
                         </div>
                         <!-- /.make-quote -->
@@ -355,8 +354,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="promobox style1 style2 clearfix">
-                            <h5 class="promobox-title">Contactanos ahora para obtener un presupuesto del servicio que necesitas.</h5>
-                            <a class="button black sm" href="#contacto">Contactanos<i class="fa fa-chevron-right"></i></a>
+                            <h5 class="promobox-title">Contáctenos ahora para obtener una oferta de servicio personalizada.</h5>
+                            <a class="button black sm" href="#contacto">Contáctanos<i class="fa fa-chevron-right"></i></a>
                         </div>
                     </div>
                     <!-- /.col-md-12 -->
